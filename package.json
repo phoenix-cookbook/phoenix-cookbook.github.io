@@ -1,0 +1,19 @@
+{
+  "name": "phoenix-cookbook",
+  "version": "0.0.1",
+  "description": "Tutorial for phoenix beginners",
+  "main": "index.js",
+  "authors": {
+    "name": "Jaeyeol Lee",
+    "email": "kodingwarrior@kakao.com"
+  },
+  "repository": "git@github.com:phoenix-cookbook/phoenix-cookbook.github.io",
+  "scripts": {
+    "dev": "vuepress dev docs/src",
+    "build": "vuepress build docs/src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
