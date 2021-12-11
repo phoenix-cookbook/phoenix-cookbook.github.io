@@ -38,8 +38,8 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Recipes',
+        link: '/recipes/'
       },
       {
         text: 'Github',
@@ -54,6 +54,16 @@ module.exports = {
           children: [
             '',
             'using-vue',
+          ]
+        }
+      ],
+      '/recipes/': [
+        {
+          title: 'Recipes',
+          collapsable: false,
+          children: [
+            '',
+            'kaffy',
           ]
         }
       ],
